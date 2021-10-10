@@ -1,3 +1,42 @@
+@media(max-width:1148px) {
+    .square_1 {
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+
+    .square_2 {
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+
+    .clients{
+        height: 946px;
+        margin-top: 900px;
+        margin-bottom: 85px;
+    }
+
+    .clients_designers{
+        flex-direction: column;
+    }
+
+    .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(9, 1fr);
+    }
+
+    .faq{
+        height: 1349px;
+    }
+
+    .pricing{
+        margin-top: 900px;
+    }
+
+}
+
 @media(max-width:1048px) {
     .header {
         height: 1264px;
@@ -68,8 +107,98 @@
     /* .list{
         margin: 0;
     } */
+    .branches{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .section_none{
+        height: unset;
+    }
 
-    
+    .registrate{
+        flex-direction: column;
+        width: 414px;
+        height: 975px;
+        background-color: white;
+    }
+
+    .registrate_img{
+        width: 414px;
+        height: 259px;
+    }
+
+    .appointman{
+        width: 414px;
+        height: 695px;
+    }
+
+    .fieldset{
+        width: 310px;
+        height: 300px;
+    }
+
+    .form{
+        width: 311px;
+        height: 50px;
+    }
+
+    .wh{
+        width: 311px;
+        height: 110px;
+    }
+
+    .control{
+        width: 311px;
+        height: 50px;
+    }
+
+    .select_1{
+        width: 311px;
+        height: 50px;
+    }
+
+    .form_button{
+        width: 311px;
+        height: 50px;
+    }
+    .reg{
+        height: 954px;
+    }
+
+    .footer{
+        margin-top: 750px;
+    }
+
+    .footer_top{
+        height: 302px;
+    }
+
+    .top{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footer_center{
+        height: 1093px;
+        
+    }
+
+    .center{
+      flex-direction: column;  
+      width: 239px;
+      align-items: flex-start;
+      gap: 30px;
+      justify-content: unset;
+    }
+
+    .co-info{
+        margin-top: 55px;
+    }
+
+    .touch_title{
+        margin-bottom: 21px;
+    }
 }
 
 @media(max-width:864px) {
@@ -78,7 +207,7 @@
         margin-top: 100px;
     }
 
-    .list{
+    .list {
         margin-right: 0;
         margin-bottom: 30px;
     }
@@ -93,10 +222,10 @@
         padding-bottom: 20px;
         display: flex;
         flex-direction: column;
-        
+
     }
 
-    .list a{
+    .list a {
         font-size: 30px;
     }
 
@@ -107,71 +236,194 @@
         justify-content: center;
     }
 
-    .bars{
+    .bars {
         display: unset;
     }
 
-    .menu{
+    .menu {
         display: flex;
         justify-content: space-between;
     }
-    
-    .header{
+
+    .header {
         height: 1864px;
     }
 
-    .header_img{
+    .header_img {
         width: max-content;
         background-position: center;
     }
 
-    .intro_info{
+    .intro_info {
         position: relative;
+    }
+
+    .strategy {
+        margin-top: 75px;
+    }
+
+    .source {
+        height: 1690px;
+    }
+
+    .strategy_headline {
+        margin-top: 45px;
+    }
+
+    .part{
+        flex-direction: column;
+    }
+
+    .branches{
+        margin-top: 900px;
+    }
+
+    .footer_bottom{
+        height: 202px;
+        
+    }
+
+    .face{
+        color: #335BF5;
+    }
+
+    .insta{
+        color: #E51F5A;
+    }
+
+    .twit{
+        color: #21A6DF;
+    }
+
+    .bt{
+        flex-direction: column;
+        gap: 52px;
+    }
+
+    .bottom_title{
+        width: 231px;
+    }
+
+    .bottom_icons{
+        width: 231px;
+    }
+
+    .yt{
+        display: unset;
+        color: #E42F08;
     }
 }
 
 
 
 @media(max-width:565px) {
-    .intro_title{
+    .intro_title {
         font-size: 40px;
         line-height: 57px;
         width: 323px;
         margin: 84px auto 0;
     }
 
-    .intro_text{
+    .intro_text {
         font-size: 20px;
         line-height: 30px;
         width: 279px;
         margin: 40px auto 0;
     }
 
-    .quotes{
+    .quotes {
         margin-top: 80px;
     }
 
-    .intro ul{
+    .intro ul {
         margin-top: 40px;
     }
-    
-    .start{
-        width: 506px;
+
+    .start {
+        width: 406px;
+    }
+
+    .headline_title {
+        width: 180px;
+        font-size: 35px;
+    }
+
+    .headline_text {
+        width: 305px;
+    }
+
+    .table {
+        margin-top: 135px;
+    }
+
+    .source {
+        height: 1823px;
+    }
+
+    .regina{
+        flex-direction: column;
+    }
+
+    .regina img{
+        height: 248px;
+    }
+
+    .clients_title{
+        width: 299px;
+        margin: 0 auto 10px;
+    }
+
+    .clients_text{
+        width: 302px;
+        margin: 0 auto;
+    }
+
+    .clients_rate{
+        width: 302px;
+    }
+
+    .faq{
+        margin-top: 700px;
+    }
+
+    .items_info{
+        margin-bottom: 45px;
+    }
+
+    .items_text{
+        width: 225px;
+        margin: 0 auto;
+    }
+    .cash_text{
+        width: 262px;
+        margin: 0 auto;
     }
 }
 
 @media(max-width:507px) {
-    .start{
+    .start {
         width: 350px;
+    }
+
+    .intro {
+        padding: 0 15px
+    }
+    .top{
+        width: 239px;
+        align-items: flex-start;
+    }
+    
+}
+
+@media(max-width:444px) {
+    body {
+        width: fit-content;
     }
 }
 
 @media(max-width:354px) {
-    .start{
+    .start {
         width: 340px;
     }
 
-    .intro_title{
-        font-size: px;
-    }
 }
